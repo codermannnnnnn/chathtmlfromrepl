@@ -1,4 +1,4 @@
-var chat_ws = new WebSocket("ws://chathtml.net/", "chsys");
+var chat_ws = new WebSocket("wss://chathtml.net/", "chsys");
 class clUser {
   constructor(e, t, auth) {
     this.name = e;
